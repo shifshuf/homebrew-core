@@ -3,7 +3,7 @@ class ClickhouseOdbc < Formula
   homepage "https://clickhouse.yandex"
   url "https://github.com/yandex/clickhouse-odbc.git",
       :tag      => "v1.1.6.20200320",
-      :revision => "49cd195abaa1f6925bb44649f673aa7cc1a4cf62"
+      :revision => "721d149414418597676dc95530101e9742031b55"
 
   depends_on "cmake" => :build
   depends_on "libiodbc" => :build
